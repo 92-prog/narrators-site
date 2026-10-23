@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>개인정보 처리방침 · Narrators</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body><div class="wrap">
+<header><a class="brand" href="index.html">Narrators</a>
+  <nav><a href="index.html">소개</a><a href="privacy.html" aria-current="page">개인정보 처리방침</a><a href="terms.html">이용약관</a><a href="support.html">지원·신고</a></nav></header>
+<main>
+<h1>개인정보 처리방침</h1>
+<p class="meta">시행일: 2026-10-23 · 대상: Mac 앱 Narrators</p>
+
+<div class="box"><b>요약</b> — Narrators 는 개인정보를 수집하지 않아요. 회원가입·로그인·광고·사용 통계가 없고,
+대본·녹음·만든 음성은 모두 사용자의 Mac 안에만 저장돼요. 개발자는 이 정보를 볼 수 없어요.</div>
+
+<h2>1. 수집하는 개인정보</h2>
+<p>없어요. Narrators 는 개발자가 운영하는 서버가 없고, 분석·광고·오류 보고 도구도 넣지 않았어요.</p>
+
+<h2>2. Mac 안에서만 처리하는 정보</h2>
+<ul>
+  <li><b>대본과 만든 음성·자막</b> — 나레이션을 만들 때 쓰고, 이 Mac 의 앱 보관함에 저장해요.</li>
+  <li><b>목소리 복제용 녹음</b> — 사용자가 직접 녹음하거나 넣은 파일과, 그 녹음에서 말한 내용(글)을 이 Mac 의 앱 보관함에 저장해요.
+    음성 합성은 모두 이 Mac 안에서 해요.</li>
+  <li><b>마이크</b> — '지금 녹음하기'를 누를 때만 써요. 처음 한 번 macOS 가 허락을 물어보고, 시스템 설정에서 언제든 끌 수 있어요.</li>
+  <li><b>설정</b> — 고른 목소리·빠르기 같은 화면 설정을 이 Mac 에 저장해요.</li>
+</ul>
+<p>저장 위치: <code>~/Library/Containers/com.jongwankim.narrators/Data/Library/Application Support/Narrators</code></p>
+
+<h2>3. 외부와 주고받는 것</h2>
+<ul>
+  <li><b>목소리 모델 내려받기 (Hugging Face)</b> — 각 음성 합성 모델(약 2.4~3.1GB)을 처음 쓸 때 한 번
+    <a href="https://huggingface.co">huggingface.co</a> 에서 내려받아요. 이때 Hugging Face 는 일반적인 웹 접속처럼
+    IP 주소와 요청 정보를 받을 수 있어요. 대본·녹음·음성은 보내지 않고, 사용 통계 전송(telemetry)은 꺼 두었어요.
+    자세한 내용은 <a href="https://huggingface.co/privacy">Hugging Face 개인정보 처리방침</a>을 보세요.</li>
+  <li><b>App Store 구입 확인 (Apple)</b> — 앱을 켤 때 macOS 의 StoreKit 이 이 Mac 에서 App Store 로 받은 앱인지 확인해요.
+    이 확인은 Apple 이 처리하며 <a href="https://www.apple.com/legal/privacy/">Apple 개인정보 처리방침</a>을 따라요.
+    개발자는 Apple ID 같은 계정 정보를 받지 않아요.</li>
+  <li><b>사용자가 직접 연 링크</b> — 약관·문의 링크를 누르면 기본 브라우저에서 열려요.</li>
+</ul>
+
+<h2>4. 제3자 제공·위탁</h2>
+<p>개발자는 개인정보를 갖고 있지 않으므로 제3자에게 제공하거나 처리를 맡기지 않아요.</p>
+
+<h2>5. 보관 기간과 삭제</h2>
+<p>모든 데이터는 사용자가 지울 때까지 이 Mac 에만 남아요. 앱 안에서 내 목소리를 지울 수 있고, 앱을 지운 뒤 위 저장 위치의 폴더를
+지우면 결과·목소리·모델이 모두 지워져요.</p>
+
+<h2>6. 아동</h2>
+<p>Narrators 는 누구에게서도 개인정보를 수집하지 않아요. 만 14세 미만 어린이는 보호자와 함께 써 주세요.</p>
+
+<h2>7. 바뀌는 경우</h2>
+<p>이 방침이 바뀌면 이 페이지에 시행일과 함께 알리고, 중요한 변경은 앱 업데이트 안내에도 적어요.</p>
+
+<h2>8. 문의 (개인정보 보호 담당)</h2>
+<p>담당: jongwan kim · 이메일: <a href="mailto:realbiggom92@gmail.com">realbiggom92@gmail.com</a></p>
+
+<hr>
+<h1 lang="en">Privacy Policy (English)</h1>
+<div lang="en">
+<p class="meta">Effective: 2026-10-23</p>
+<p><b>Narrators does not collect personal data.</b> There is no account, no analytics, no advertising and no developer-run server.
+Scripts, voice recordings, generated audio and settings stay on your Mac inside the app's sandbox container
+and are never sent to the developer.</p>
+<ul>
+  <li><b>Microphone</b> is used only when you press “Record now” to clone your own voice; macOS asks for permission first.</li>
+  <li><b>Model download</b>: each speech model (about 2.4–3.1 GB) is downloaded once from huggingface.co on first use.
+    Hugging Face may receive your IP address and request details as with any web request (see the
+    <a href="https://huggingface.co/privacy">Hugging Face Privacy Policy</a>). No scripts, recordings or audio are sent; telemetry is disabled.</li>
+  <li><b>App Store purchase check</b>: macOS StoreKit verifies that the app was obtained from the App Store on this Mac, handled by Apple
+    under the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>. The developer receives no account data.</li>
+  <li>You can delete your data by deleting your voices in the app, or by removing the app and its container folder.</li>
+</ul>
+<p>Contact: <a href="mailto:realbiggom92@gmail.com">realbiggom92@gmail.com</a></p>
+</div>
+</main>
+<footer>© Narrators</footer>
+</div></body>
+</html>
